@@ -1,0 +1,310 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #FFFFFF;
+}
+.hdr{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: baseline;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+}
+.hdr a 
+{
+	text-decoration: none;
+	color: black;
+}
+.hdr a:hover
+{
+	text-decoration: underline;
+}
+.name{
+	color: black;
+	font-size: 30px;
+}
+.pi img{
+	border-radius: 170px;	
+}
+.pi{
+	display: flex;
+	justify-content: center;
+}
+.pid
+{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	margin: 50px;
+	align-items: center;
+
+}
+/*.pid button
+{
+	display: flex;
+	gap: 30px;
+	flex-direction: row;
+}*/
+.btn{
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	
+}
+.btn button
+{
+	width: 150px;
+	border-radius: 50px;
+}
+.fa {
+  /*padding: 20px;*/
+  font-size: 30px;
+  /*width: 50px;*/
+  text-align: center;
+  text-decoration: none;
+}
+.icon{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	padding: 20px;
+}
+/*.icon a 
+{
+	height: min-content;
+	width: min-content;
+}*/
+.b1{
+	padding: 20px;
+	background: white;
+	color: black;
+}
+.b2{
+	color: white;
+	background-color: black;
+}
+.name
+{
+	font-size: 30px;
+}
+.am{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: center;*/
+}
+.ami {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+.ami > img
+{
+	border-radius: 10px;
+	height: 500px;
+}
+.ex{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	align-items: center;
+	padding: 50px;
+	border-radius: 10px;
+	border: 5px solid black;
+	height: min-content;
+}
+.ed
+{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	align-items: center;
+	/*padding: 50px;*/
+	padding: 30px;
+	border-radius: 10px;
+	border: 5px solid black;
+	height: min-content;
+
+}
+.exed{
+	display: flex;
+	gap: 70px;
+
+}
+.desc
+{
+	/*font-size: 10px;*/
+	/*color: black;*/
+	font-size: 20px;
+	margin-bottom: 30px;
+	/*line-height: 10px;*/
+}
+.eme
+{
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 0;
+}
+.fd 
+{
+	display: flex;
+	flex-direction: column;
+	border: 5px solid black;
+	border-radius: 10px;
+	align-items: center;
+	padding: 10px;
+	/*justify-content:baseline;*/
+}
+.ht 
+{
+	display: flex;
+	gap: 5px;
+}
+.cs 
+{
+	display: flex;
+	gap: 5px;
+}
+.js 
+{
+	
+	display: flex;
+	gap: 5px;
+
+}
+.py 
+{
+
+	display: flex;
+	gap: 5px;
+}
+.ml{
+
+	display: flex;
+	gap: 5px;
+}
+.git 
+{
+
+	display: flex;
+	gap: 5px;
+}
+.bd {
+	display: flex;
+	flex-direction: column;
+	border: 5px solid black;
+	border-radius: 10px;
+	align-items: center;
+	padding: 10px;
+}
+.fdbd{
+	display: flex;
+	gap: 50px;
+}
+.ps {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 50px;
+	gap: 10px;
+}
+.p1 {
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	border: 5px solid black;
+	padding: 10px;
+}
+.p1 img{
+	border-radius: 5px;
+}
+.p1 button
+{
+	background-color: white;
+	color: white;
+	/*text-decoration: none;*/
+	border-radius: 5px;
+	padding: 10px;
+}
+.p1 a {
+	text-decoration: none;
+}
+.p1 button:hover
+{
+	background-color: black;
+	color: white;
+}
+.p2{
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	border: 5px solid black;
+	padding: 10px;
+
+}
+.p2 img{
+	border-radius: 5px;
+}
+.p2 button
+{
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+.p2 a {
+	text-decoration: none;
+}
+.p2 button:hover
+{
+	background-color: white;
+	color: black;
+}
+.p3
+{
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	border: 5px solid black;
+	padding: 10px;
+}
+.p3 img{
+	border-radius: 5px;
+}
+.p3 button
+{
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+	padding: 10px;
+}
+.p3 a {
+	text-decoration: none;
+	/*margin-top: auto;*/
+}
+.p3 button:hover{
+	background-color: black;
+	color: white;
+}
+.im 
+{
+	display: flex;
+	align-items: center;
+	border: 5px solid black;
+	width: min-content;
+	padding: 10px;
+}
+.ftr {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.gp {
+	display: flex;
+	/*justify-content: space-evenly;*/
+	gap: 40px;
+}
